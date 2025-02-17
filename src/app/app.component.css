@@ -1,0 +1,27 @@
+.body {
+  background: linear-gradient(to right, #b1d400, #cbde6a);
+  height: 110vh;
+}
+
+.main {
+  /* background-color: #7962db; */
+  background-color: #576c1d;
+  height: 100px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0 0 20px #363232;
+}
+.nav-display {
+  padding-right: 20px;
+  font-size: 25px;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+p {
+  font-size: 20px;
+}

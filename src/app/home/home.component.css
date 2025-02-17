@@ -1,0 +1,45 @@
+.home-main {
+  background-color: white;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 0 20px #363232;
+  /* padding: 3rem; */
+  box-sizing: border-box;
+  margin: 60px;
+  font-size: 20px;
+}
+.home-list {
+  padding: 50px;
+  font-size: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.home-div {
+  /* width: 30%; */
+  box-sizing: border-box;
+  /* box-shadow: 0px 0px 1px #b3aaaa; */
+  padding: 10px;
+  margin-bottom: 2px;
+}
+.donut-img {
+  width: 50px;
+  height: auto;
+  padding-left: 15px;
+}
+li {
+  list-style: none;
+  /* border: 0.5px solid #9a7f7f; */
+  border-radius: 5px;
+  height: 80px;
+  box-shadow: 0 0 5px #d4c8c8;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}

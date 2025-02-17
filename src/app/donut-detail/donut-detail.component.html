@@ -1,0 +1,8 @@
+<div *ngIf="donut" class="donut-details">
+  <h1>{{ donut.name }}</h1>
+  <img [src]="donut.photo" alt="{{ donut.name }}" class="donut-img" />
+  <p>Calories: {{ donut.calories }}</p>
+  <p>Photo Attribution: {{ donut.photo_attribution }}</p>
+  <p>Extras: {{ donut.extras.join(", ") }}</p>
+  <button (click)="addToCart()">Add to Cart</button>
+</div>

@@ -1,0 +1,12 @@
+<div class="home-main">
+  <div class="home-list">
+    <h1>Donut Varieties</h1>
+    <ul>
+      <li *ngFor="let donut of donuts">
+        <div class="home-div">
+          <a [routerLink]="['/donut', donut.id]">{{ donut.name }} <img [src]="donut.photo" alt="{{ donut.name }}" class="donut-img" /></a>
+        </div>        
+      </li>
+    </ul>
+  </div>
+</div>

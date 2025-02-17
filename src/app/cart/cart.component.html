@@ -1,0 +1,37 @@
+<div class="cart-main">
+  <h1 class="cart-heading">Cart</h1>
+  <div class="table">
+    <table class="custum-table">
+      <thead>
+        <tr class="cart-tr">
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Calories</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of cartItems">
+          <td>{{ item.donut.name }}</td>
+          <td>{{ item.quantity }}</td>
+          <td>{{ item.donut.calories * item.quantity }}</td>
+          <td>
+            <button class="cart-btn" (click)="removeFromCart(item.donut.id)">
+              Remove
+            </button>
+          </td>
+        </tr>
+      </tbody>
+  
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>{{ totalPrice }}</td>
+          <td>{{ totalCalories }}</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+   
+  </div>
+</div>
