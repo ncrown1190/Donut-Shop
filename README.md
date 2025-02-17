@@ -1,5 +1,9 @@
 # DonutShop
 
+![WebView](src/images/pic1.png)
+![WebView](src/images/pic2.png)
+![WebView](src/images/pic3.png)
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
 ## Development server
